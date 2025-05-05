@@ -3,11 +3,11 @@
     3  mkdir CTA200_2025/assignment_1
     4  touch CTA200_2025/README.md
     5  vi README.md
-    6  cp /home/murray/Papers/tmp/Hello_world.c /fs/lustre/scratc/munawwarah/CTA200_2025/assignment_1
+    6  cp /home/murray/Papers/tmp/Hello_world.c /fs/lustre/scratch/munawwarah/CTA200_2025/assignment_1
     7  cd /home/murray
     8  find . -name Hello_world.py -print 2>/dev/null
     9  cd ./tmp
-   10  cp /home/murray/tmp/Hello_world.py /home/munawwarah/CTA200_2025/assignment_1
+   10  cp /home/murray/tmp/Hello_world.py /fs/lustre/scratch/munawwarah/CTA200_2025/assignment_1
    11  cd /fs/scratch/lustre/munawwarah/CTA200_2025/assignment_1
    12  ls
    13  mv Hello_world.c Hello_world_munawwarah.c
