@@ -13,15 +13,16 @@
    13  mv Hello_world.c Hello_world_munawwarah.c
    14  mv Hello_world.py Hello_world_munawwarah.py
    15  gcc Hello_world_munawwarah.c -o Hello_world.x
-   16  module load python/3.10.2
-   17  python Hello_world_munawwarah.py
-   18  vi Hello_world_munawwarah.py
-   19  vi Hello_world_munawwarah.c
-   20  python Hello_world_munawwarah.py
-   21  gcc Hello_world_munawwarah.c -o Hello_world_munawwarah.x
-   22  ./Hello_world_munawwarah.x
-   23  python Hello_world_munawwarah.py > output_python.txt
-   24  ./Hello_world_munawwarah.x > output_c.txt
-   25  vi output_c.txt
-   26  vi output_python.txt
-   27  history > history.txt
+   16  ./Hello_world.x
+   17  module load python/3.10.2
+   18  python Hello_world_munawwarah.py
+   19  vi Hello_world_munawwarah.py
+   20  vi Hello_world_munawwarah.c
+   21  python Hello_world_munawwarah.py
+   22  gcc Hello_world_munawwarah.c -o Hello_world_munawwarah.x
+   23  ./Hello_world_munawwarah.x
+   24  python Hello_world_munawwarah.py > output_python.txt
+   25  ./Hello_world_munawwarah.x > output_c.txt
+   26  vi output_c.txt
+   27  vi output_python.txt
+   28  history > history.txt
