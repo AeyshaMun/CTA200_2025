@@ -1,94 +1,27 @@
-    1  /cita/local/bin/passwd
-    2  git clone https://github.com/CITA/CTA200H.git
-    3  git pull
-    4  ls
-    5  ls -l
-    6  .
-    7  cd.
-    8  cd .
-    9  ls
-   10  pwd
-   11  cd /home/munawwarah
-   12  pwd
-   13  cd /home/munawwarah/CTA200_2025/assignment_1
-   14  pwd
-   15  cd home/murray/Papers/tmp
-   16  find Hello_world.c
-   17  pwd
-   18  cd /home/murray/Papers/tmp
-   19  pwd
-   20  find Hello_world.c
-   21  cp /home/murray/Papers/tmp/Hello_world.c /home/munawwarah/CTA200_2025/assignment_1
-   22  cd /home/munawwarah/CTA200_2025/assignment_1
-   23  ls
-   24  cd /home/murray/Papers/tmp
-   25  find Hello_world.py
-   26  cd /home/murray
-   27  pwd
-   28  find . -name Hello_world.py -print 2>/dev/null
-   29  cd ./tmp
-   30  ls
-   31  cp /home/murray/tmp/Hello_world.py /home/munawwarah/CTA200_2025/assignment_1
-   32  cd /home/munawwarah/CTA200_2025/assignment_1
-   33  ls
-   34  mv Hello_world.c Hello_world_munawwarah.c
-   35  mv Hello_world.py Hello_world_munawwarah.py
-   36  gcc Hello_world_munawwarah.c -o Hello_world.x
-   37  module load python
-   38  python Hello_world.py
-   39  cd /fs/lustre/scratch/USERNAME
-   40  /fs/lustre/scratch/munawwarah
-   41  ls
-   42  pwd
-   43  cd /fs/lustre/scratch/USERNAME
-   44  cd /fs/lustre/scratch/munawwarah
-   45  pwd
-   46  ls
-   47  mv /home/munawwarah/CTA200_2025 /fs/lustre/scratch/munawwarah
-   48  pwd
-   49  ls
-   50  cd /fs/lustre/scratch/munawwarah/CTA200_2025/assignment_1
-   51  ls
-   52  module load python/3.10.2
-   53  python Hello_world.py
-   54  cd
-   55  pwd
-   56  cd /fs/lustre/scratch/munawwarah/CTA200_2025/assignment_1
-   57  pwd
-   58  python Hello_world.py
-   59  cd /home/munawwarah
-   60  ls
-   61  pwd
-   62  cd /fs/lustre/scratch/munawwarah
-   63  git clone https://github.com/CITA/CTA200H.git
-   64  ls
-   65  pwd
-   66  cd ./CTA200_2025
-   67  ls
-   68  cd ./assignment_1
-   69  ls
-   70  module list
-   71  module purge
-   72  vi Hello_world,py
-   73  ls
-   74  vi Hello_world.py
-   75  pwd
-   76  ls
-   77  vi Hello_world_munawwarah.py
-   78  vi Hello_world_munawwarah.c
-   79  module list
-   80  module load python/3.10.2
-   81  python Hello_world_munawwarah.py
-   82  ls
-   83  ./Hello_world.x
-   84  vi Hello_world_munawwarah.c
-   85  gcc Hello_world_munawwarah.c -o Hello_world_munawwarah.x
-   86  ./Hello_world_munawwarah.x
-   87  ./Hello_world.x > output_c.txt
-   88  python Hello_world_munawwarah.py > output_python.txt
-   89  ls
-   90  vi output_c.txt
-   91  ./Hello_world_munawwarah.x > output_c.txt
-   92  vi output_c.txt
-   93  vi output_python.txt
-   94  history > history.txt
+    1  cd /fs/lustre/scratch/munawwarah
+    2  mkdir CTA200_2025
+    3  mkdir CTA200_2025/assignment_1
+    4  touch CTA200_2025/README.md
+    5  vi README.md
+    6  cp /home/murray/Papers/tmp/Hello_world.c /fs/lustre/scratc/munawwarah/CTA200_2025/assignment_1
+    7  cd /home/murray
+    8  find . -name Hello_world.py -print 2>/dev/null
+    9  cd ./tmp
+   10  cp /home/murray/tmp/Hello_world.py /home/munawwarah/CTA200_2025/assignment_1
+   11  cd /fs/scratch/lustre/munawwarah/CTA200_2025/assignment_1
+   12  ls
+   13  mv Hello_world.c Hello_world_munawwarah.c
+   14  mv Hello_world.py Hello_world_munawwarah.py
+   15  gcc Hello_world_munawwarah.c -o Hello_world.x
+   16  module load python/3.10.2
+   17  python Hello_world_munawwarah.py
+   18  vi Hello_world_munawwarah.py
+   19  vi Hello_world_munawwarah.c
+   20  python Hello_world_munawwarah.py
+   21  gcc Hello_world_munawwarah.c -o Hello_world_munawwarah.x
+   22  ./Hello_world_munawwarah.x
+   23  python Hello_world_munawwarah.py > output_python.txt
+   24  ./Hello_world_munawwarah.x > output_c.txt
+   25  vi output_c.txt
+   26  vi output_python.txt
+   27  history > history.txt
